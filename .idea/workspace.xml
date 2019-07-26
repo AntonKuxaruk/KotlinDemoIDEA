@@ -1,71 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a623ba46-1b23-4243-99ee-75f0a7bc51c6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kotlin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AnimalKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AppKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/BadException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Canine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/DVDPlayer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Hippo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/MeRabbit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/NullValuesKt$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/NullValuesKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/PhraseOMaticKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/RPS_GameKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Rabbit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Roamable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/SampleDataClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Song.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/SongsKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/TapeDeck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Vehicle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Vet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Wolf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/genericsdemo/Cat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/genericsdemo/CatRetailer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/genericsdemo/Contest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/genericsdemo/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/genericsdemo/DogRetailer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/genericsdemo/Fish.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/genericsdemo/FishRetailer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/genericsdemo/MainKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/genericsdemo/Pet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/genericsdemo/Retailer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/genericsdemo/Vet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/lambdas/LambdasKt$getConvertLambda$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/lambdas/LambdasKt$getConvertLambda$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/lambdas/LambdasKt$getConvertLambda$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/lambdas/LambdasKt$getConvertLambda$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/lambdas/LambdasKt$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/lambdas/LambdasKt$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/lambdas/LambdasKt$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/lambdas/LambdasKt$main$lbd$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/lambdas/LambdasKt$main$meLb$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/lambdas/LambdasKt$main$plusFun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/lambdas/LambdasKt$main$x$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/lambdas/LambdasKt$main$y$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/lambdas/LambdasKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NullValues.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/genericsdemo/Contest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/genericsdemo/Pet.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/genericsdemo/Retailer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/genericsdemo/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/Lambdas.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.kt" afterDir="false" />
-    </list>
+    <list default="true" id="a623ba46-1b23-4243-99ee-75f0a7bc51c6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -115,7 +51,7 @@
       <file leaf-file-name="Lambdas.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lambdas/Lambdas.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="163">
               <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
             </state>
           </provider>
@@ -172,17 +108,6 @@
             <path>
               <item name="MeFirstApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MeFirstApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MeFirstApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lambdas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -358,10 +283,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.14316013" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32985386" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23435843" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23435843" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08955224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08955224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -750,7 +675,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lambdas/Lambdas.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="163">
           <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
         </state>
       </provider>
