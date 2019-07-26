@@ -14,4 +14,14 @@ fun main (args: Array<String>){
     for (x in 1 until 20) print("$x "); println()
     for (x in 1 until 30 step 2) print("$x "); println()
     for (x in 23 downTo 0) print("$x "); println()
+
+    val str1 = "Not Null"
+    val str2 = null
+
+    somePrinting(null)
+    somePrinting(str1)
+}
+
+fun somePrinting(string: String?){
+    println(string)
 }

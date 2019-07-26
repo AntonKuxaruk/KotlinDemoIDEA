@@ -1,28 +1,52 @@
 
 fun main(args: Array<String>)
 {
-    val animals = arrayOf(Animal(),Hippo(), Wolf())
-    animals.forEach { println("${it.image}"); it.makeNoise() }
+    val animals = arrayOf(Hippo(), Wolf())
+    animals.forEach { println("${it.image}"); it.roam(); it.eat() }
 
-    val canine = Canine()
     val vet = Vet()
-    vet.giveShot(canine)
+    val wolf = Wolf()
+    val hippo = Hippo()
+    vet.giveShot(wolf)
+    vet.giveShot(hippo)
+    println("--------------------------------------------------------")
+
+    val roamables =  arrayOf(Hippo(), Wolf(), Vehicle())
+    for (rmb in roamables){
+        rmb.roam()
+        if (rmb is Animal) rmb.eat()
+    }
+
+    val sd1 = SampleDataClass("sd1", 11)
+    val sd2 = SampleDataClass("sd1", 11)
+    val sd3 = sd2.copy(p2=13)
+    val( p1, p2) = sd3
+
+    print(sd1.equals(sd2)); print(" ${sd2 === sd1} "); print(sd2 === sd3); println( " " + sd2.equals(sd3))
+    println("${sd1.hashCode()} ${sd2.hashCode()}")
+    println("$sd3 $p1 $p2")
+
+
+
 }
 
-open class Animal {
+interface Roamable {
+    fun roam()
+}
+class Vehicle : Roamable {
+    override fun roam() = println("The vehicle is roaming")
+}
 
-    open val image = "An Animal..."
-    open val food = ""
-    open val habitat = ""
+abstract class Animal : Roamable {
+
+    abstract val image : String
+    abstract val food : String
+    abstract val habitat : String
     open val hunger = 10
-
-    open fun makeNoise(){
-        println("The animal is making noise")
-    }
-    open fun eat(){
-        println("The animal is eating")
-    }
-    open fun roam(){
+            
+    abstract fun makeNoise()
+    abstract fun eat()
+    override fun roam(){
         println("The animal is roaming")
     }
     open fun sleep(){
@@ -39,7 +63,7 @@ class Hippo : Animal() {
     override fun eat() = println("The Hippo is eating $food...")
 }
 
-open class Canine : Animal() {
+abstract class Canine : Animal() {
     override fun roam() = println("The Canine is roaming...!")
 }
 
@@ -53,5 +77,7 @@ class Wolf : Canine() {
 }
 
 class Vet {
-    fun giveShot(animal: Animal) = animal.roam()
+    fun giveShot(animal: Animal) = animal.makeNoise()
 }
+
+data class SampleDataClass (val p1 : String, val p2 : Int)
